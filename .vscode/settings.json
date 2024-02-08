@@ -28,7 +28,12 @@
     "[json]": {
         "editor.formatOnSave": false
     },
+    "[c]": {
+        "editor.formatOnSave": false
+    },
     "clangd.arguments": [
         "--header-insertion=never"
-    ]
+    ],
+    "cmake.configureOnOpen": true,
+    "editor.formatOnSave": false
 }
